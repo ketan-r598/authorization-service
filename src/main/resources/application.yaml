@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: AuthorizationServer
+    
+  datasource:
+    url: mysql:jdbc://localhost:3306/auth_server
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      
+    show-sql: true
